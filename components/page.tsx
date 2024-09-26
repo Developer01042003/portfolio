@@ -203,15 +203,16 @@ export function Page() {
 
       <main className="container mx-auto py-12 px-4 relative">
         <section ref={aboutRef} className="mb-12 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-4">About Me</h2>
-          <p className="text-lg">
-            I'm a passionate full stack software engineer with 5+ years of experience in building web applications
-            and APIs. I specialize in Python-based backends using Django and FastAPI, with expertise in frontend
-            technologies like React and JavaScript. I'm skilled in working with databases, message brokers, and
-            containerization technologies. My goal is to create efficient, scalable, and user-friendly solutions
-            that solve real-world problems.
-          </p>
-        </section>
+  <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+  <p className="text-lg">
+    I&apos;m a passionate full stack software engineer with 5+ years of experience in building web applications
+    and APIs. I specialize in Python-based backends using Django and FastAPI, with expertise in frontend
+    technologies like React and JavaScript. I&apos;m skilled in working with databases, message brokers, and
+    containerization technologies. My goal is to create efficient, scalable, and user-friendly solutions
+    that solve real-world problems.
+  </p>
+             </section>
+
 
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Skills</h2>
